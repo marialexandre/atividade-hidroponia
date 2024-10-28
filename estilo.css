@@ -1,7 +1,7 @@
 :root {
-    --cor-coluna-esquerda: #71c98b; /* Cor da coluna esquerda */
-    --cor-coluna-direita: #e5e5e5; /* Cor da coluna direita */
-    --cor-logo: #00571a;
+    --cor-coluna-esquerda: #53aac4;
+    --cor-coluna-direita: #34677d;
+    --cor-logo: #140e0d;
 }
 
 * {
@@ -23,11 +23,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(56, 56, 56);
+    color: #78f3fc;
 }
 
 .coluna-esquerda {
-    color: white;
+    color: #78f3fc;
     max-width: 200px;
     padding-right: 20px;
     padding-left: 20px;
@@ -66,9 +66,9 @@ body {
     transition: background-color 0.3s;
 }
 
-.coluna-esquerda a:hover {   
+.coluna-esquerda a:hover {
     background-color: var(--cor-coluna-esquerda);
-    color:black;    
+    color: #78f3fc;
     font-weight: 600;
 }
 
